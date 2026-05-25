@@ -1,6 +1,5 @@
 {
     "name": "spatie/laravel-mailcoach",
-    "version": "8.25.9",
     "description": "Send email campaigns using Laravel",
     "keywords": [
         "spatie",
