@@ -1,0 +1,41 @@
+{
+  "__commonjsHelpers.js": {
+    "file": "assets/_commonjsHelpers.js",
+    "name": "_commonjsHelpers"
+  },
+  "resources/css/app.css": {
+    "file": "assets/app.css",
+    "src": "resources/css/app.css",
+    "isEntry": true
+  },
+  "resources/js/app.js": {
+    "file": "assets/app2.js",
+    "name": "app",
+    "src": "resources/js/app.js",
+    "isEntry": true,
+    "imports": [
+      "__commonjsHelpers.js"
+    ]
+  },
+  "resources/js/editors/codemirror/codemirror.js": {
+    "file": "assets/codemirror.js",
+    "name": "codemirror",
+    "src": "resources/js/editors/codemirror/codemirror.js",
+    "isEntry": true
+  },
+  "resources/js/editors/editorjs/editorjs.js": {
+    "file": "assets/editorjs.js",
+    "name": "editorjs",
+    "src": "resources/js/editors/editorjs/editorjs.js",
+    "isEntry": true
+  },
+  "resources/js/editors/markdown/markdown.js": {
+    "file": "assets/markdown.js",
+    "name": "markdown",
+    "src": "resources/js/editors/markdown/markdown.js",
+    "isEntry": true,
+    "imports": [
+      "__commonjsHelpers.js"
+    ]
+  }
+}

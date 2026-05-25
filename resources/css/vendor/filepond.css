@@ -1,0 +1,42 @@
+.filepond--credits {
+    display: none;
+}
+
+.filepond--file {
+    @apply text-navy;
+}
+
+.filepond--image-preview-overlay {
+    @apply text-sand;
+    mix-blend-mode: normal;
+}
+
+.filepond--root {
+    @apply input;
+}
+
+.filepond--image-preview,
+.filepond--item-panel {
+    @apply bg-white;
+    @apply border;
+    @apply border-sand-extra-light;
+}
+
+.filepond--label-action {
+    @apply text-blue-dark;
+    @apply decoration-blue-dark;
+}
+
+[data-filepond-item-state='processing-complete'] .filepond--item-panel {
+    @apply bg-sand-extra-light;
+}
+
+[data-filepond-item-state*='error'] .filepond--file,
+[data-filepond-item-state*='invalid'] .filepond--file {
+    @apply text-white;
+}
+
+.filepond--image-preview-wrapper,
+.filepond--image-preview {
+    @apply rounded-t;
+}
